@@ -3,7 +3,7 @@
     "pk": 1,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001340155",
+      "sku": "pp5001000001",
       "name": "DJI Mavic Mini",
       "description": "DJI has recently unveiled the Mavic Mini drone. This new drone weighs 249g, meaning that it will not need to be registered with the UK or USA Governments.Weighing under 250 grams, the DJI Mavic Mini is almost as light as the average smartphone.This makes it exceptionally portable and places it in the lowest and safest weight class of drones, which in many countries may exempt it from specific regulations.",
       "price": 459.00,
@@ -17,7 +17,7 @@
     "pk": 2,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001600425",
+      "sku": "pp5001000002",
       "name": "DJI Mavic Air 2",
       "description": "With a 1/2-inch CMOS sensor, the DJI Mavic Air 2 can capture stunning 48MP pictures, this impressive camera supports a high megapixel count that allows for vivid details,even when you zoom in on an image.The Mavic Air 2 is  capable of capturing effortlessly smooth 4K/60fps video.",
       "price": 739.99,
@@ -31,7 +31,7 @@
     "pk": 3,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001730010",
+      "sku": "pp5001000003",
       "name": "DJI Maviv 2",
       "description": "The brand-new DJI Mavic 2 Pro edition is the most powerful drone available on the consumer market. The Mavic 2 Pro utilises a three-axis gimbal with Hasselblad camera and 1-inch CMOS sensor and F2.8 to F11 EQV 28mm lens capable of capturing 4K UHD video and 20MP images.",
       "price": 1310.99,
@@ -45,7 +45,7 @@
     "pk": 4,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001890157",
+      "sku": "pp5001000004",
       "name": "DJI Mavic 2 zoom",
       "description": "The new Mavic 2 Zoom is the latest addition to the foldable DJI Mavic Series. The Mavic 2 Zoom utilises a two-time optical zoom camera letting photographers and videographers get even more detail of their subject.",
       "price": 1079.99,
@@ -59,7 +59,7 @@
     "pk": 5,
     "model": "products.product",
     "fields": {
-      "sku": "pp5002111605",
+      "sku": "pp5001000005",
       "name": "DJI Phantom 4 Pro V2.0",
       "description": "The DJI Phantom 4 Pro V2.0 is the latest iteration in DJI’s iconic Phantom Series. The Phantom 4 V2.0 features an OcuSync HD transmission system for dual frequency band switching. A powerful 1-inch Exmor R CMOS sensor captures high-quality images at 20 MP and video in up to 4K at 60 FPS.  ",
       "price": 1589.99,
@@ -73,7 +73,7 @@
     "pk": 6,
     "model": "products.product",
     "fields": {
-      "sku": "pp5002260206",
+      "sku": "pp5001000006",
       "name": "DJI Inspire 2",
       "description": "The DJI Inspire 2 X5S Standard Kit is an ideal combination for filmmakers wanting to produce stunning aerial content. This new package from DJI features the Inspire 2 drone, as well as the Zenmuse X5S camera, and standard Inspire 2 remote controller.",
       "price": 4999.99,
@@ -87,7 +87,7 @@
     "pk": 7,
     "model": "products.product",
     "fields": {
-      "sku": "pp5002440521",
+      "sku": "pp5001000007",
       "name": "DJI Matrice 300",
       "description": "DJI has launched the M300 RTK - a next-level commercial drone platform which offers enhanced flight performance and unrivalled safety features. With a 55 minute maximum flight time, advanced AI capabilities, six directional sensing and positioning and the ability to carry three payloads. ",
       "price": 8999.99,
@@ -96,6 +96,215 @@
       "image_url": "https://www.heliguy.com/images/dji-matrice-300-drone-p6768-11866_image.jpg",
       "image": "matrice_300/dji-matrice-300-rtk-2.png"
     }
+  },
+{
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000008",
+      "name": "DJI Matrice 600",
+      "description": "The key features of this powerful aerial platform include pre-installed arms and antennas, modular design to make upgrades / modifications easy, improved flight time over the standard M600, the A3 pro flight controller, the Lightbridge 2 HD transmission system, support for 6 intelligent batteries and an improved battery management system. ",
+      "price": 5199.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/downloads/1478699426m600-pro.jpg",
+      "image": "matrice_600/main.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000009",
+      "name": "DJI Zenmuse X5s Gimbal System",
+      "description": "Equipped with a new and improved Micro 4/3 sensor, the Zenmuse X5S has a dynamic range of 12.8 stops with a better signal to noise ratio and colour sensitivity than its predecessor, the X5R. It supports up to eight standard M4/3 lenses (including zoom lenses) with focal lengths ranging from 9mm-45mm, allowing more variety for image capture. The new CineCore 2.0 image processing system on the Inspire 2 makes the Zenmuse X5S capable of capturing 5.2K 30fps CinemaDNG video and Apple ProRes video as well as 4K 60fps using H.264 and 4K 30fps using H.265 (both at 100Mbps). Continuous DNG burst shooting at 20fps with 20.8MP images is also supported.",
+      "price": 1969.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/dji-zenmuse-x5s-p4210-6708_image.jpg",
+      "image": "gimbals/x5s-front.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000010",
+      "name": "DJI Zenmuse X7 Gimbal System",
+      "description": "The Zenmuse X7 is the newest aerial camera with integrated gimbal from DJI. It is suitable for use with the DJI Inspire 2. This Super 35 camera provides stunning results, thanks to a 24MP CMOS sensor with 14 stops of dynamic range. This lets you capture incredible detail. You can capture 6K CinemaDNG footage and 5.2K Apple ProRes footage. In addition, there's a new DL-Mount. This allows you to switch easily and swiftly between four different prime lenses which have been released with the X7.",
+      "price": 2699.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/dji-zenmuse-x7-camera-and-gimbal-without-lens-p4745-8027_image.jpg",
+      "image": "gimbals/x7_without_lens.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000011",
+      "name": "DJI Zenmuse Z30 Gimbal System",
+      "description": "Aerial platforms are rapidly becoming vital tools for businesses looking to more efficiently collect information crucial to their operations. As the first integrated aerial camera with an optical zoom up to 30x and digital up to 6x, the Zenmuse Z30 offers unparalleled image data capture. Enterprises are now able to capture the information they require from a greater range, making image data collection significantly faster and eliminates the risk of harm to both personnel and equipment.",
+      "price": 2710.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/zenmuse-z30-p4156-10650_image.jpg",
+      "image": "gimbals/z30_front.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000012",
+      "name": "DJI Zenmuse XT2 Thermal Gimbal System",
+      "description": "The Zenmuse XT2 from DJI and FLIR, combines DJI's expert gimbal technology and FLIR's industry-leading thermal technology in a dual thermal and visual camera for enterprise users. The XT2 features dual 4K, 12MP, 1/1.7″ CMOS visual sensor and FLIR Tau 2 thermal sensor. An IP44 rating allows the XT2 to be used is a wide range of weather conditions.",
+      "price": 6999.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/dji-zenmuse-xt2-thermal-camera-p5044-9093_image.jpg",
+      "image": "gimbals/xt2_thermal_front.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000013",
+      "name": "DJI Cendence Controller",
+      "description": "With the Cendence remote controller, the initial idea was to combine the Inspire 2, Tracktenna, and CrystalSky monitor as a highly-integrated unit. As an essential part of this approach, Cendence offers modular components and controls that realise the full potential of Inspire 2 & Matrice 200 applications.",
+      "price": 949.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/dji-cendence-remote-controller-p4483-7309_image.jpg",
+      "image": "controllers_and_screens/dji-cendence-main.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000014",
+      "name": "DJI Crystalsky Ultra Brightness Monitor 7.85 inch",
+      "description": "2000cd/m² of brightness means that this premium CrystalSky monitor is approximately four times as bright as typical mobile devices. On-screen details are clear and sharp, and colours are vibrant, giving the quality needed to fine tune image composition. A dedicated Sunlight Readability Enhancement mode is designed for processing the image in real-time to ensure more comfortable viewing under bright light. ",
+      "price": 949.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/dji-crystalsky-ultra-brightness-monitor-7-85-p4482-7307_image.jpg",
+      "image": "controllers_and_screens/dji-crystalsky.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000015",
+      "name": "DJI Zenmuse X7 DL/DL-S Lens Set",
+      "description": "The DJI DL/DL-s lenses are designed for professional use with aerial video and photography. Built of lightweight carbon fibre, the lenses are able to reduce the payload of the gimbal and the camera improving the stability of your aircraft when shooting. Using DJI DL mount they fix onto the Zenmuse X7 providing different focal lengths.  ",
+      "price": 4299.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/zenmuse-x7-dl-dl-s-lens-set-p4751-7977_image.jpg",
+      "image": "zenmuse_lens/zenmuse-x7-main.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000016",
+      "name": "Batteries & Charging Stations",
+      "description": "A waterproof hard case for TB50 or TB55 batteries with all related accessories. It can transport: Up to 9 x TB50 or TB55 Batteries,  2 x TB50/55 Charging Hub, 2 x TB50/55 Charger, 1 x Charging Hub for CrystalSky Batteries,4 x CrystalSky Battery",
+      "price": 1899.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/tb50-inspire-2-battery-hprc-hard-case-charging-combo-p6254-11293_image.jpg",
+      "image": "batteries_and_chargers/tb50-charging-case.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000017",
+      "name": "Batteries & Charging Stations",
+      "description": "This version of the TB50 Intelligent Battery powers the DJI Inspire 2 and the Ronin 2. The high-performance battery uses high-density cells which gives a larger capacity as well as an updated management unit. This management unit monitors battery status and ensures that all information, including power levels and battery temperature, are intuitively displayed via DJI GO. ",
+      "price": 179.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/tb50-intelligent-battery-inspire-2-and-ronin-2-p4165-9190_image.jpg",
+      "image": "batteries_and_chargers/tb50-intelligent-battery.png"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000018",
+      "name": "Batteries & Charging Stations",
+      "description": "This is the flight battery for the DJI Mavic Mini. The Mavic Mini also has a 30 minute flight time. ",
+      "price": 45.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/dji-mavic-mini-intelligent-flight-battery-p6602-11625_image.jpg",
+      "image": "batteries_and_chargers/dji-mavi-mini.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000019",
+      "name": "Batteries & Charging Stations",
+      "description": "While you're in flight - battery status is reported in real time, so you'll always know how much flight time you have remaining. This will let you focus on capturing the right shot, rather than worrying about your battery life!. 34 Minute Flight Time ",
+      "price": 105.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/mavic-air-2-battery-p6750-11826_image.jpg",
+      "image": "batteries_and_chargers/mavic-air-2-battery.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000020",
+      "name": "Batteries & Charging Stations",
+      "description": "Advanced battery for the DJI Mavic 2 Pro and Zoom. This Intelligent Flight Battery has a near 60Wh capacity - giving the Mavic 2 range a 31 minute flight time! A built-in computer monitors battery health and charge - giving you the chance to focus on flying. Mavic 2 batteries use high-capacity LiPo cells and have multiple built-in protection features.",
+      "price": 129.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/dji-mavic-2-intelligent-flight-battery-p5238-9847_image.jpg",
+      "image": "batteries_and_chargers/dji-mavic-2-intelligent-flight-battery.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000021",
+      "name": "Batteries & Charging Stations",
+      "description": "The Intelligent Flight Battery provides up to 30 minutes flight time for the Obsidian. The health of the battery can be monitored on the DJI Go 4 app to maximise battery life. ",
+      "price": 169.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/dji-battery-for-phantom-4-pro-and-pro-obsidian-p4670-7718_image.jpg",
+      "image": "batteries_and_chargers/dji-battery-for-phantom-4-pro.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000022",
+      "name": "Batteries & Charging Stations",
+      "description": "The TB60 Intelligent Flight Battery is built especially for the DJI M300 RTK drone. These high-capacity, hot-swappable units help to give the DJI M300 RTK incredible endurance, keeping it airborne for up to 55 minutes without a payload. Thanks to the TB60 Intelligent Flight Batteries, the M300 RTK can fly for longer than the M200 Series V2 drones.",
+      "price": 700.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/tb60-intelligent-flight-battery-for-matrice-300-p6770-11876_medium.jpg",
+      "image": "batteries_and_chargers/tb60-intelligent-flight-battery.jpg"
+    }
   }
-
   ]

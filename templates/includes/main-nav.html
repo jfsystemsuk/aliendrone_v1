@@ -5,35 +5,40 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=price" class="dropdown-item">Price</a>
+                <a href="{% url 'products' %}?category=rating" class="dropdown-item ">Rating</a>
+                <a href="{% url 'products' %}?category=category" class="dropdown-item ">Category</a>
+                <a href="{% url 'products' %}?category=price,rating,category" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                DJI Consumer
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="drone-type-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                DJI Drones
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="consumer-link">
-                <a href="" class="dropdown-item"> DJI Mavic Mini</a>
-                <a href="" class="dropdown-item"> DJI Mavic Air 2</a>
-                <a href="" class="dropdown-item"> DJI Mavic 2</a>
-                <a href="" class="dropdown-item"> DJI Mavic 2 Zoom</a>
-                <a href="" class="dropdown-item"> DJI Phantom 4 Pro V2</a>
-                <a href="" class="dropdown-item">Accessories</a>
+            <div class="dropdown-menu border-0" aria-labelledby="drone-type-link">
+                <a href="{% url 'products' %}?category=consumer" class="dropdown-item"> Consumer</a>
+                <a href="{% url 'products' %}?category=commercial" class="dropdown-item"> Commercial</a>
+                <a href="{% url 'products' %}?category=enterprize" class="dropdown-item"> Enterprize</a>
+                <a href="{% url 'products' %}?category=consumer,commercial,enterprize" class="dropdown-item"> All Drone Types</a>
+                <a href="{% url 'products' %}" class="dropdown-item"></a>
+                <a href="{% url 'products' %}" class="dropdown-item"></a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                DJI Commercial
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="dji-accessories" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                DJI Accessories
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="commercial-link">
-                <a href="" class="dropdown-item">DJI Inspire 2</a>
-                <a href="" class="dropdown-item">DJI Matrice 300</a>
-                <a href="" class="dropdown-item">Accessories</a>
+            <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
+                <a href="{% url 'products' %}?category=batteries,charging_stations" class="dropdown-item">Batteries & Charging Stations</a>
+                <a href="{% url 'products' %}?category=gimals" class="dropdown-item">Gimbals</a>
+                <a href="{% url 'products' %}?category=lens" class="dropdown-item">Lens</a>
+                <a href="{% url 'products' %}?category=controllers,screens" class="dropdown-item">Controllers & Screens</a>
+                <a href="{% url 'products' %}?category=cases" class="dropdown-item">Cases</a>
+                <a href="{% url 'products' %}?category=batteries,charging_stations,gimbals,lens,controllers,screens,cases" class="dropdown-item">All Accessories</a>
+                <a href="" class="dropdown-item"></a>
+                <a href="" class="dropdown-item"></a>
             </div>
         </li>
 
@@ -42,10 +47,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
