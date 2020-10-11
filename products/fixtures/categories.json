@@ -1,0 +1,9 @@
+[{"pk": 1, "model": "products.category", "fields": {"name": "dji_mavic_mini", "friendly_name": "DJI Mavic Mini"}},
+ {"pk": 2, "model": "products.category", "fields": {"name": "dji_mavic_air", "friendly_name": "DJI Mavic Air 2"}}, 
+ {"pk": 3, "model": "products.category", "fields": {"name": "dji_mavic_2", "friendly_name": "DJI Mavic 2"}}, 
+ {"pk": 4, "model": "products.category", "fields": {"name": "dji_mavic_zoom", "friendly_name": "DJI Mavic 2 zoom"}}, 
+ {"pk": 5, "model": "products.category", "fields": {"name": "dji_phantom_4", "friendly_name": "DJI Phantom 4 Pro Plus"}}, 
+ {"pk": 6, "model": "products.category", "fields": {"name": "dji_inspire_2", "friendly_name": "DJI Inspire 2"}}, 
+ {"pk": 7, "model": "products.category", "fields": {"name": "dji_matrice", "friendly_name": "DJI Matrice 300 RTK"}}, 
+ {"pk": 8, "model": "products.category", "fields": {"name": "new_arrivals", "friendly_name": "New Arrivals"}}, 
+ {"pk": 9, "model": "products.category", "fields": {"name": "offers", "friendly_name": "Special Offers"}}]

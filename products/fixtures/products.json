@@ -1,0 +1,101 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "DJI Mavic Mini",
+      "description": "DJI has recently unveiled the Mavic Mini drone. This new drone weighs 249g, meaning that it will not need to be registered with the UK or USA Governments.Weighing under 250 grams, the DJI Mavic Mini is almost as light as the average smartphone.This makes it exceptionally portable and places it in the lowest and safest weight class of drones, which in many countries may exempt it from specific regulations.",
+      "price": 459.00,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://www.heliguy.com/images/dji-mavic-mini-fly-more-combo-p6600-11617_image.jpg",
+      "image": "mavic_mini/dji-mavic-mini-frontside.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "DJI Mavic Air 2",
+      "description": "With a 1/2-inch CMOS sensor, the DJI Mavic Air 2 can capture stunning 48MP pictures, this impressive camera supports a high megapixel count that allows for vivid details,even when you zoom in on an image.The Mavic Air 2 is  capable of capturing effortlessly smooth 4K/60fps video.",
+      "price": 739.99,
+      "category": 4,
+      "rating": 4.6,
+      "image_url": "https://www.heliguy.com/images/dji-mavic-air-2-drone-p6748-11817_image.jpg",
+      "image": "mavic_air_2/dji-mavic-air-2-drone-frontmain.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730010",
+      "name": "DJI Maviv 2",
+      "description": "The brand-new DJI Mavic 2 Pro edition is the most powerful drone available on the consumer market. The Mavic 2 Pro utilises a three-axis gimbal with Hasselblad camera and 1-inch CMOS sensor and F2.8 to F11 EQV 28mm lens capable of capturing 4K UHD video and 20MP images.",
+      "price": 1310.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "https://www.heliguy.com/images/dji-mavic-2-pro-drone-p5225-9807_image.jpg",
+      "image": "mavic_2/dji-mavic-2-pro-drone-frontside.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001890157",
+      "name": "DJI Mavic 2 zoom",
+      "description": "The new Mavic 2 Zoom is the latest addition to the foldable DJI Mavic Series. The Mavic 2 Zoom utilises a two-time optical zoom camera letting photographers and videographers get even more detail of their subject.",
+      "price": 1079.99,
+      "category": 7,
+      "rating": 3,
+      "image_url": "https://www.heliguy.com/images/dji-mavic-2-zoom-p5226-9875_image.jpg",
+      "image": "mavic_2_zoom/dji-mavic-2-zoom-frontside.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002111605",
+      "name": "DJI Phantom 4 Pro V2.0",
+      "description": "The DJI Phantom 4 Pro V2.0 is the latest iteration in DJI’s iconic Phantom Series. The Phantom 4 V2.0 features an OcuSync HD transmission system for dual frequency band switching. A powerful 1-inch Exmor R CMOS sensor captures high-quality images at 20 MP and video in up to 4K at 60 FPS.  ",
+      "price": 1589.99,
+      "category": 7,
+      "rating": 5,
+      "image_url": "https://www.heliguy.com/images/dji-phantom-4-pro-v2-p5095-9213_image.jpg",
+      "image": "phantom_4/phantom-4.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002260206",
+      "name": "DJI Inspire 2",
+      "description": "The DJI Inspire 2 X5S Standard Kit is an ideal combination for filmmakers wanting to produce stunning aerial content. This new package from DJI features the Inspire 2 drone, as well as the Zenmuse X5S camera, and standard Inspire 2 remote controller.",
+      "price": 4999.99,
+      "category": 9,
+      "rating": 4.7,
+      "image_url": "https://www.heliguy.com/images/dji-inspire-2-and-x5s-standard-p6955-12142_image.jpg",
+      "image": "inspire_2/dji-inspire-2-main.png"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002440521",
+      "name": "DJI Matrice 300",
+      "description": "DJI has launched the M300 RTK - a next-level commercial drone platform which offers enhanced flight performance and unrivalled safety features. With a 55 minute maximum flight time, advanced AI capabilities, six directional sensing and positioning and the ability to carry three payloads. ",
+      "price": 8999.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://www.heliguy.com/images/dji-matrice-300-drone-p6768-11866_image.jpg",
+      "image": "matrice_300/dji-matrice-300-rtk-2.png"
+    }
+  }
+
+  ]
