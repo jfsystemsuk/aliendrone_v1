@@ -122,7 +122,7 @@
       "category": 4,
       "rating": 4.4,
       "image_url": "https://www.heliguy.com/images/dji-zenmuse-x5s-p4210-6708_image.jpg",
-      "image": "gimbals/x5s-front.jpg"
+      "image": "gimbals/x5s_front.jpg"
     }
   },
   {
@@ -136,7 +136,7 @@
       "category": 4,
       "rating": 4.4,
       "image_url": "https://www.heliguy.com/images/dji-zenmuse-x7-camera-and-gimbal-without-lens-p4745-8027_image.jpg",
-      "image": "gimbals/x7_without_lens.jpg"
+      "image": "gimbals/X7_without_lens.jpg"
     }
   },
   {
@@ -248,7 +248,7 @@
       "category": 4,
       "rating": 4.4,
       "image_url": "https://www.heliguy.com/images/dji-mavic-mini-intelligent-flight-battery-p6602-11625_image.jpg",
-      "image": "batteries_and_chargers/dji-mavi-mini.jpg"
+      "image": "batteries_and_chargers/dji-mavic-mini.jpg"
     }
   },
   {
