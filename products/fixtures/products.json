@@ -66,7 +66,7 @@
       "category": 7,
       "rating": 5,
       "image_url": "https://www.heliguy.com/images/dji-phantom-4-pro-v2-p5095-9213_image.jpg",
-      "image": "phantom_4/phantom-4.jpg"
+      "image": "phantom_4/p4-600x598.jpg"
     }
   },
   {
@@ -108,7 +108,7 @@
       "category": 4,
       "rating": 4.4,
       "image_url": "https://www.heliguy.com/downloads/1478699426m600-pro.jpg",
-      "image": "matrice_600/main.jpg"
+      "image": "matrice_600/matrice600drone-600x600.jpg"
     }
   },
   {
@@ -192,7 +192,7 @@
       "category": 4,
       "rating": 4.4,
       "image_url": "https://www.heliguy.com/images/dji-crystalsky-ultra-brightness-monitor-7-85-p4482-7307_image.jpg",
-      "image": "controllers_and_screens/dji-crystalsky.jpg"
+      "image": "controllers_and_screens/djicrystalsky1-1-600x600.jpg"
     }
   },
   {
@@ -214,7 +214,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001000016",
-      "name": "Batteries & Charging Stations",
+      "name": "TB50 Hard Case",
       "description": "A waterproof hard case for TB50 or TB55 batteries with all related accessories. It can transport: Up to 9 x TB50 or TB55 Batteries,  2 x TB50/55 Charging Hub, 2 x TB50/55 Charger, 1 x Charging Hub for CrystalSky Batteries,4 x CrystalSky Battery",
       "price": 1899.99,
       "category": 4,
@@ -228,7 +228,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001000017",
-      "name": "Batteries & Charging Stations",
+      "name": "DJI TB50 Intelligent Battery",
       "description": "This version of the TB50 Intelligent Battery powers the DJI Inspire 2 and the Ronin 2. The high-performance battery uses high-density cells which gives a larger capacity as well as an updated management unit. This management unit monitors battery status and ensures that all information, including power levels and battery temperature, are intuitively displayed via DJI GO. ",
       "price": 179.99,
       "category": 4,
@@ -242,7 +242,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001000018",
-      "name": "Batteries & Charging Stations",
+      "name": "DJI Mavic Mini Intelligent Battery",
       "description": "This is the flight battery for the DJI Mavic Mini. The Mavic Mini also has a 30 minute flight time. ",
       "price": 45.99,
       "category": 4,
@@ -256,7 +256,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001000019",
-      "name": "Batteries & Charging Stations",
+      "name": "DJI Mavic Air 2 Intelligent Battery",
       "description": "While you're in flight - battery status is reported in real time, so you'll always know how much flight time you have remaining. This will let you focus on capturing the right shot, rather than worrying about your battery life!. 34 Minute Flight Time ",
       "price": 105.99,
       "category": 4,
@@ -270,7 +270,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001000020",
-      "name": "Batteries & Charging Stations",
+      "name": "DJI Mavic 2 Intelligent Battery",
       "description": "Advanced battery for the DJI Mavic 2 Pro and Zoom. This Intelligent Flight Battery has a near 60Wh capacity - giving the Mavic 2 range a 31 minute flight time! A built-in computer monitors battery health and charge - giving you the chance to focus on flying. Mavic 2 batteries use high-capacity LiPo cells and have multiple built-in protection features.",
       "price": 129.99,
       "category": 4,
@@ -284,7 +284,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001000021",
-      "name": "Batteries & Charging Stations",
+      "name": "DJI Phantom 4 Intelligent Battery",
       "description": "The Intelligent Flight Battery provides up to 30 minutes flight time for the Obsidian. The health of the battery can be monitored on the DJI Go 4 app to maximise battery life. ",
       "price": 169.99,
       "category": 4,
@@ -298,7 +298,7 @@
     "model": "products.product",
     "fields": {
       "sku": "pp5001000022",
-      "name": "Batteries & Charging Stations",
+      "name": "DJI Matrice 300 Intelligent Battery Set",
       "description": "The TB60 Intelligent Flight Battery is built especially for the DJI M300 RTK drone. These high-capacity, hot-swappable units help to give the DJI M300 RTK incredible endurance, keeping it airborne for up to 55 minutes without a payload. Thanks to the TB60 Intelligent Flight Batteries, the M300 RTK can fly for longer than the M200 Series V2 drones.",
       "price": 700.99,
       "category": 4,
