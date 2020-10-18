@@ -1,7 +1,5 @@
 from django.db import models
 
-# Created models are here.
-
 
 class Category(models.Model):
 
