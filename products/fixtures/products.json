@@ -306,5 +306,33 @@
       "image_url": "https://www.heliguy.com/images/tb60-intelligent-flight-battery-for-matrice-300-p6770-11876_medium.jpg",
       "image": "batteries_and_chargers/tb60-intelligent-flight-battery.jpg"
     }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000023",
+      "name": "DJI White Mavic Tee Shirt",
+      "description": " Made from 100% Comfortable soft Cotton.",
+      "price": 18.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://canary.contestimg.wish.com/api/webimage/5a758c561c6def5e3ca93ecb-1-large.jpg",
+      "image": "clothing/tee-shirt-white.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001000024",
+      "name": "DJI Black Mavic Tee Shirt",
+      "description": " Made from 100% Comfortable soft Cotton.",
+      "price": 18.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://canary.contestimg.wish.com/api/webimage/5a758c561c6def5e3ca93ecb-large.jpg",
+      "image": "clothing/tee-shirt-black.jpg"
+    }
   }
   ]

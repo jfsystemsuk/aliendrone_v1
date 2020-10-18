@@ -6,7 +6,8 @@
  {"pk": 6, "model": "products.category", "fields": {"name": "lens", "friendly_name": "Lens"}}, 
  {"pk": 7, "model": "products.category", "fields": {"name": "controllers", "friendly_name": "Controllers & Screens"}}, 
  {"pk": 8, "model": "products.category", "fields": {"name": "cases", "friendly_name": "cases"}}, 
- {"pk": 9, "model": "products.category", "fields": {"name": "accessories", "friendly_name": "All Accessories"}}
+ {"pk": 9, "model": "products.category", "fields": {"name": "clothing", "friendly_name": "Tee Shirts"}}, 
+ {"pk": 10, "model": "products.category", "fields": {"name": "accessories", "friendly_name": "All Accessories"}}
  
  
  
