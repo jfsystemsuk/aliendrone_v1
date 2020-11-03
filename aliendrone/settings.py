@@ -18,7 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '7&4n^kalt$9$-d&u%lfm_%a(s8t)wdja7bp%3x#*m_!43i9n+l'
+SECRET_KEY = 'sk_test_51He5e5FZ68yDToCgHS3YqnCgYSJOTz9SICiYTF2pD3dzmTBTSJF4k4mwr7lnwSFnKqnv5eFk4X6tLBwSnOHrv5HS002rTCNbef'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -168,5 +168,9 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-FREE_DELIVERY_THRESHOLD = 99
+# Stripe
+FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
+STRIPE_CURRENCY = 'gbp'
+STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
