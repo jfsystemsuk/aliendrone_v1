@@ -2,6 +2,7 @@ from django.http import HttpResponse
 
 from .models import Order, OrderLineItem
 from products.models import Product
+from profiles.models import UserProfile
 
 import json
 import time
@@ -39,6 +40,21 @@ class StripeWH_Handler:
             if value == "":
                 shipping_details.address[field] = None
 
+        # Update profile information if save_info was checked
+        profile = None
+        username = intent.metadata.username
+        if username != 'AnonymousUser':
+            profile = UserProfile.objects.get(user__username=username)
+            if save_info:
+                profile.default_phone_number = shipping_details.phone
+                profile.default_street_address1 = shipping_details.address.line1 # noqa
+                profile.default_street_address2 = shipping_details.address.line2 # noqa
+                profile.default_town_or_city = shipping_details.address.city
+                profile.default_postcode = shipping_details.address.postal_code
+                profile.default_county = shipping_details.address.state
+                profile.default_country = shipping_details.address.country
+                profile.save()
+
         order_exists = False
         attempt = 1
         while attempt <= 5:
@@ -47,12 +63,12 @@ class StripeWH_Handler:
                     full_name__iexact=shipping_details.name,
                     email__iexact=billing_details.email,
                     phone_number__iexact=shipping_details.phone,
-                    country__iexact=shipping_details.address.country,
-                    postcode__iexact=shipping_details.address.postal_code,
-                    town_or_city__iexact=shipping_details.address.city,
                     street_address1__iexact=shipping_details.address.line1,
                     street_address2__iexact=shipping_details.address.line2,
+                    town_or_city__iexact=shipping_details.address.city,
+                    postcode__iexact=shipping_details.address.postal_code,
                     county__iexact=shipping_details.address.state,
+                    country__iexact=shipping_details.address.country,
                     grand_total=grand_total,
                     original_basket=basket,
                     stripe_pid=pid,
@@ -70,15 +86,16 @@ class StripeWH_Handler:
             order = None
             try:
                 order = Order.objects.create(
-                    full_name=shipping_details.name,
-                    email=billing_details.email,
-                    phone_number=shipping_details.phone,
-                    country=shipping_details.address.country,
-                    postcode=shipping_details.address.postal_code,
-                    town_or_city=shipping_details.address.city,
-                    street_address1=shipping_details.address.line1,
-                    street_address2=shipping_details.address.line2,
-                    county=shipping_details.address.state,
+                    full_name__iexact=shipping_details.name,
+                    email__iexact=billing_details.email,
+                    phone_number__iexact=shipping_details.phone,
+                    street_address1__iexact=shipping_details.address.line1,
+                    street_address2__iexact=shipping_details.address.line2,
+                    town_or_city__iexact=shipping_details.address.city,
+                    postcode__iexact=shipping_details.address.postal_code,
+                    county__iexact=shipping_details.address.state,
+                    country__iexact=shipping_details.address.country,
+                    grand_total=grand_total,
                     original_basket=basket,
                     stripe_pid=pid,
                 )
