@@ -1,9 +1,9 @@
-from django.contrib import admin
 from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.profile, name='profile'),
-    path('order_history/<order_number>', views.order_history, name='order_history'), # noqa
-
+    path('', views.all_products, name='products'),
+    path('<int:product_id>/', views.product_detail, name='product_detail'),
+    path('add/', views.add_product, name='add_product'),
+    path('edit/<int:product_id>/', views.edit_product, name='edit_product'),
 ]
